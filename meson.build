@@ -6,5 +6,6 @@ srcs = [
 
 app = executable(
 	meson.project_name(),
-	sources : srcs
+	sources : srcs,
+	install: true
 )
